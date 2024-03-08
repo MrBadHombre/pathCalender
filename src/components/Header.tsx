@@ -8,6 +8,7 @@ export const MainHeader = () => {
     } else {
       setVariable('green')
     }
+    console.log(variable)
   }
 
   return (

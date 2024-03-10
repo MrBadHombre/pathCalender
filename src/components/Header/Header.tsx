@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import styles from './header.module.css'
+
 export const MainHeader = () => {
   const [variable, setVariable] = useState('blue')
   const [titleVariable, setTitleVariable] = useState('home')
@@ -24,7 +26,11 @@ export const MainHeader = () => {
           justifyContent: 'center',
         }}
       >
-        <h3 style={{ backgroundColor: variable }} onClick={handleClick}>
+        <h3
+          className={styles.header}
+          style={{ backgroundColor: variable }}
+          onClick={handleClick}
+        >
           {titleVariable}
         </h3>
         <h3>add calender</h3>

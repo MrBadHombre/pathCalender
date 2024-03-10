@@ -1,0 +1,8 @@
+.calenderGrid {
+  display: grid;
+  grid-template-columns: 5;
+  grid-template-columns: 7;
+  height: 500px;
+  border: 2px;
+  border-color: aliceblue;
+}

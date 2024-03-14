@@ -3,7 +3,7 @@ import styles from './calenderHomeScreen.module.css'
 export const CalenderHomeScreen = () => {
   let calenderSpaces: number[] = []
   const setSquares = () => {
-    for (let i = 0; i < 30; i++) {
+    for (let i = 0; i < 31; i++) {
       calenderSpaces.push(i)
     }
     console.log(calenderSpaces)

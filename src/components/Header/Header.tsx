@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import styles from './header.module.css'
 
-export const MainHeader = () => {
+export const Header = () => {
   const [variable, setVariable] = useState('blue')
   const [titleVariable, setTitleVariable] = useState('home')
   const handleClick = () => {
@@ -35,6 +35,7 @@ export const MainHeader = () => {
         </h3>
         <h3>add calender</h3>
       </div>
+      <button> log </button>
     </>
   )
 }
